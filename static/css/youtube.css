@@ -1,0 +1,113 @@
+  body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .btn-gradient{
+      background: linear-gradient(90deg, #bd00ff, #f5317f, #ffdc18) !important;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      transition: 0.3s;
+    }
+    .btn-gradient:hover {
+      opacity: 0.9;
+    }
+    .gradient-bg {
+  background: linear-gradient(90deg, #bd00ff, #f5317f, #ffdc18);
+}
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 30px;
+      background: linear-gradient(90deg, #bd00ff, #f5317f, #ffdc18);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #videoContainer, #youtubeContainer {
+      margin-top: 30px;
+      display: none;
+      text-align: center;
+    }
+    #videoPlayer, #youtubePlayer {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    #downloadLink button {
+      margin-top: 15px;
+      width: 200px;
+    }
+    select, input, button {
+      margin: 10px 0;
+    }
+
+    /* footer css */
+    .footer {
+    background-color: #cc222e;
+    color: white;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+  }
+  .footer-section {
+    max-width: 50%;
+   
+  }
+  .footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .footer-section p, .footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  .footer-info-links{
+    margin: auto;
+  }
+  .footer-info-links a {
+    display: block;
+    margin-bottom: 8px;
+    margin-right: auto;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+  }
+  @media (max-width: 600px) {
+    .footer-top {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .footer-section {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+.howtouse{
+  border:1px solid red;
+  object-fit: cover;
+  object-position: center;
+}
+.howtouse .card-body img{
+  width: 100%;
+  max-height: 420px;
+
+}
+  
